@@ -1,4 +1,6 @@
 #!/bin/sh
+echo "Deployz controlled failure test: exiting at start" >&2
+exit 1
 set -e
 
 setup_and_migrate_db() {
